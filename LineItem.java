@@ -1,7 +1,7 @@
 public class LineItem {
   private String itemName;
   private int quantity;
-  private price double;
+  private double price;
   
   public LineItem(String newName, int newQty, double newPrice) {
     itemName = newName;
@@ -25,11 +25,11 @@ public class LineItem {
     return price*quantity;
   }
   
-  public setQuantity(int newQty) {
+  public void setQuantity(int newQty) {
     quantity = newQty;
   }
   
-  public double setPrice(double newPrice) {
+  public void setPrice(double newPrice) {
     price = newPrice;
   }
   
