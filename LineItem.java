@@ -34,7 +34,8 @@ public class LineItem {
   }
   
   public String toString() {
-  
+    String outString = this.getName() + " qty " + this.getQuantity() + " @ " + this.getPrice() + "/t$" + this.getTotalPrice();
+    return outString;
   }
 
 }
